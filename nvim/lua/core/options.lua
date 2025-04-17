@@ -1,0 +1,12 @@
+vim.wo.number = true	-- Make line numbers default
+vim.o.relativenumber = true
+vim.o.clipboard = 'unnamedplus'		-- Sync clipboard between OS and Neovim.
+vim.o.wrap = false	-- Display lines as one long line
+vim.o.linebreak = true
+vim.o.mouse = 'a'	-- Enable mouse mode
+vim.o.autoindent = true		-- Copy indent from current line when starting new one
+vim.o.ignorecase = true		-- Case-insensitive searching UNLESS \C or capital in seach
+vim.o.smartcase = true		-- Smart case
+vim.o.shiftwidth = 4	-- The number of spaces inserted for each indentation
+vim.o.tabstop = 4 	-- Insert n spaces for a tab (default: 8)
+vim.o.softtabstop = 4 	-- Number of spaces that a tab counts for while 
